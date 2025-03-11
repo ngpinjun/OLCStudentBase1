@@ -20,6 +20,6 @@
             }
         }
     },
-    "postCreateCommand": "pip install -r requirements.txt || echo 'No requirements to install'",
+    "postCreateCommand": "pip install -r requirements.txt && python -m ipykernel install --user --name devcontainer_kernel --display-name 'Python (Dev Container)'",
     "forwardPorts": []
 }
