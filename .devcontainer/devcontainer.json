@@ -5,8 +5,11 @@
             "extensions": [
                 "ms-python.python",
                 "ms-vsliveshare.vsliveshare",
-                "knisterpeter.auto-commit",
-                "ms-toolsai.jupyter"
+                "ms-toolsai.jupyter",
+                "ms-toolsai.vscode-jupyter-cell-tags",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-slideshow"
             ],
             "settings": {
                 "auto-commit.enable": true,  // Enable Auto Commit
